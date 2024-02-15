@@ -1,0 +1,91 @@
+@import "./rainbow.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* white */
+    --foreground: 240 10% 3.9%; /* zinc-900 */
+
+    --muted: 240 4.8% 95.9%; /* zinc-100 */
+    --muted-foreground: 240 3.8% 46.1%; /* zinc-500 */
+
+    --popover: 0 0% 100%; /* white */
+    --popover-foreground: 240 10% 3.9%; /* zinc-950 */
+
+    --card: 0 0% 100%; /* white */
+    --card-foreground: 240 10% 3.9%; /* zinc-950 */
+
+    --border: 240 5.9% 90%; /* zinc-200 */
+    --input: 240 5.9% 90%; /* zinc-200 */
+
+    --primary: 262 83% 58%; /* violet-600 */
+    --primary-foreground: 0 0% 98%; /* zinc-50 */
+
+    --secondary: 240 4.8% 95.9%; /* zinc-100 */
+    --secondary-foreground: 240 5.9% 10%; /* zinc-900 */
+
+    --accent: 240 4.8% 95.9%; /* zinc-100 */
+    --accent-foreground: 240 5.9% 10%; /* zinc-900 */
+
+    --destructive: 0 72.2% 50.6%; /* red-600 */
+    --destructive-foreground: 0 0% 98%; /* zinc-50 */
+
+    --ring: 240 10% 3.9%; /* zinc-950 */
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%; /* zinc-950 */
+    --foreground: 0 0% 98%; /* zinc-50 */
+
+    --muted: 240 3.7% 15.9%; /* zinc-800 */
+    --muted-foreground: 240 5% 64.9%; /* zinc-400 */
+
+    --popover: 240 10% 3.9%; /* zinc-900 */
+    --popover-foreground: 0 0% 98%; /* zinc-50 */
+
+    --card: 240 10% 3.9%; /* zinc-900 */
+    --card-foreground: 0 0% 98%; /* zinc-50 */
+
+    --border: 240 3.7% 15.9%; /* zinc-800 */
+    --input: 240 3.7% 15.9%; /* zinc-800 */
+
+    --primary: 0 0% 98%; /* zinc-50 */
+    --primary-foreground: 240 5.9% 10%; /* zinc-900 */
+
+    --secondary: 240 3.7% 15.9%; /* zinc-800 */
+    --secondary-foreground: 0 0% 98%; /* zinc-50 */
+
+    --accent: 240 3.7% 15.9%; /* zinc-800 */
+    --accent-foreground: 0 0% 98%; /* zinc-50 */
+
+    --destructive: 0 62.8% 30.6%; /* red-900 */
+    --destructive-foreground: 0 0% 98%; /* zinc-50 */
+
+    --ring: 240 4.9% 83.9%; /* zinc-300 */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .h-hero {
+    /* 70px is the height of the navbar */
+    height: calc(100lvh - 70px);
+  }
+
+  .clip-pentagon {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+}

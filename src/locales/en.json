@@ -1,0 +1,184 @@
+{
+  "Common": {
+    "brand_full": "SXYA Community",
+    "brand_short": "SXYA"
+  },
+  "Header": {
+    "navigation": {
+      "home": "Home",
+      "group_resource": "Resources",
+      "event_list": "Events",
+      "event_list_desc": "Find out what events we had in the past and what is coming",
+      "dictionary": "Dictionary",
+      "dictionary_desc": "Learn about the secret language we say",
+      "game_list": "Games",
+      "game_list_desc": "Check out the games we would like to play together",
+      "rule_list": "Rules",
+      "rule_list_desc": "Read the rules that we follow and enforce",
+      "group_about_us": "About Us",
+      "member_list": "Our Members",
+      "member_list_desc": "Learn about our family",
+      "chronicle": "Chronicle",
+      "chronicle_desc": "Read the history of us",
+      "contact_us": "Contact Us",
+      "contact_us_desc": "Get in touch with us",
+      "acknowledgements": "Acknowledgements",
+      "acknowledgements_desc": "Thanks to all who have helped us"
+    },
+    "navbar": "Navbar",
+    "navigations": "Navigations",
+    "theme_toggle": {
+      "title": "Appearance",
+      "prompt": "{target_theme, select, light {Switch to Light Theme} dark {Switch to Dark Theme} other {Toggle Theme}}"
+    }
+  },
+  "Footer": {
+    "copyright": "Copyright &copy; 2023 SXYA Community. All rights reserved."
+  },
+  "Home": {
+    "metadata": {
+      "title": "Home",
+      "description": "SXYA Community is a group of people who are passionate about life and love to share their experiences with others."
+    },
+    "hero": {
+      "title": "SXYA Community Worldwide",
+      "description": "If you are looking for conversation ideas, we could talk about hobbies, travel, current events, personal goals, pop culture, food, or career. Is there anything in particular that interests you?",
+      "contact_us": "Contact Us",
+      "check_events": "Check Events",
+      "group_photo_alt": "Group Photo of SXYA Members"
+    },
+    "member": {
+      "title": "Meet our founders",
+      "description": "Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper suspendisse.",
+      "member_avatar_alt": "Avatar of {member_name}"
+    },
+    "procedure": {
+      "tagline": "How We Works",
+      "title": "Event Planning Procedure",
+      "description": "We have built various standardized processes to build events that are more reliable and suited for the majority of people in order to make events function more smoothly and efficiently.",
+      "initiation": {
+        "title": "Preliminary Planning",
+        "description": "Develop initial event details, including location, number of participants, date, and time."
+      },
+      "consensus": {
+        "title": "Feedback-based Adjustments",
+        "description": "Ask all members if they choose to participate and make adjustments to satisfy the majority."
+      },
+      "validation": {
+        "title": "Follow-up and Confirmation",
+        "description": "Follow-up with non-responsive members to ask if they choose to participate and adjust to satisfy the majority."
+      },
+      "implementation": {
+        "title": "Event Execution",
+        "description": "Carry out the details that have been agreed upon, such as reservations and confirmation."
+      },
+      "feedback": {
+        "title": "Post-execution Inquiry",
+        "description": "Follow-up with non-responsive members to ask if they choose to participate (without adjusting event details)."
+      },
+      "notification": {
+        "title": "Detail Notification",
+        "description": "Notify all members of the event details and any changes that have been made."
+      }
+    },
+    "dictionary": {
+      "title": "Dictionary",
+      "description": "The following phrases are randomly selected from SXYA dictionary.",
+      "view_more": "View More",
+      "pick_another": "Pick Another"
+    }
+  },
+  "MemberList": {
+    "metadata": {
+      "title": "Members",
+      "description": "The members of SXYA."
+    },
+    "hero": {
+      "title": "Our Members",
+      "description": "We are a community of people who are passionate about life and the world around us. We are a diverse group of people from all walks of life, and we are united to gaming and various events."
+    },
+    "member_list": {
+      "avatar_alt": "Avatar of {member_name}",
+      "core_members": {
+        "title": "Core Members",
+        "description": "The members whom soul and heart connected to the community."
+      },
+      "official_members": {
+        "title": "Official Members",
+        "description": "The members whom actively participate in the community."
+      },
+      "verified_members": {
+        "title": "Verified Members",
+        "description": "The members whom are known to the community."
+      }
+    }
+  },
+  "EventCategory": {
+    "academic": {
+      "title": "Academic Gathering",
+      "description": "Gathering for intellectual activities."
+    },
+    "dining": {
+      "title": "Dining",
+      "description": "Social meal event, casual or formal."
+    },
+    "entertainment": {
+      "title": "Entertainment",
+      "description": "Performance featuring talented singers."
+    },
+    "sport": {
+      "title": "Sport",
+      "description": "Physical activity and competition."
+    },
+    "giveaway": {
+      "title": "Giveaway",
+      "description": "Exchanging presents to show appreciation or celebrate."
+    }
+  },
+  "EventProperty": {
+    "status": "Status",
+    "status_human": "{status, select, finished {Finished} ongoing {Ongoing} upcoming {Upcoming} other {Unknown}} Event",
+    "proposed_by": "Proposed by"
+  },
+  "EventList": {
+    "metadata": {
+      "title": "Events",
+      "description": "Check out the latest events and have fun together"
+    },
+    "hero": {
+      "title": "Check out the latest events and have fun together",
+      "description": "We regularly hold various types of events, such as barbecues, sports, etc. To ensure that all members can enjoy comfortable and happy times."
+    }
+  },
+  "Dictionary": {
+    "metadata": {
+      "title": "Dictionary",
+      "description": "They are the building blocks of our language."
+    },
+    "hero": {
+      "tagline": "Part of our memory palace",
+      "title": "Dictionary",
+      "description": "They are the building blocks of our language. Behind every phrase there is a story, a history, a culture. They have become the carriers of our history."
+    },
+    "list": {
+      "load_more": "Load More",
+      "no_more": "Nothing more to load"
+    }
+  },
+  "GameList": {
+    "metadata": {
+      "title": "Games",
+      "description": "Check out the games we would like to play together"
+    },
+    "hero": {
+      "tagline": "Vote your favours games to play",
+      "title": "Gaming Candidates"
+    },
+    "list": {
+      "interested_count": "Number of Interested",
+      "interest": "I am interested",
+      "interested": "Interested",
+      "interest_success": "You have successfully expressed your interest."
+    }
+  }
+}
